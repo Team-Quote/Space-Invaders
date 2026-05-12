@@ -1,20 +1,57 @@
+
+## 2. `feature_request.md`
+
+```md
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
+name: Feature Request
+about: Suggest a new feature, enhancement, or project improvement
+title: "[FEATURE] "
+labels: enhancement, needs-triage
 assignees: ''
-
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## Summary
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+Briefly describe the feature or improvement.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## Motivation
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+Why is this useful?
+
+Example:
+- Improves debugging
+- Adds hardware support
+- Makes the project easier to build
+- Adds a missing module
+- Improves documentation
+- Makes simulation/testing easier
+
+## Proposed Solution
+
+Describe what you would like to happen.
+
+## Project Area
+
+Select all that apply:
+
+- [ ] Application/software
+- [ ] Embedded firmware
+- [ ] RTL / Verilog / VHDL
+- [ ] FPGA implementation
+- [ ] Simulation/testbench
+- [ ] Hardware interface
+- [ ] Documentation
+- [ ] Build/toolchain
+- [ ] Other:
+
+## Alternatives Considered
+
+Describe any other possible approaches.
+
+## Implementation Notes
+
+Optional notes about files, modules, registers, memory maps, peripherals, or interfaces that may be affected.
+
+## Additional Context
+
+Add screenshots, diagrams, links, or examples if helpful.
