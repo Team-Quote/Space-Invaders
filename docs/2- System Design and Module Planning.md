@@ -147,8 +147,18 @@ PB0-PB3 -> 4-bit R-2R ladder -> LM386 -> speaker
 `Sound.c / Sound.h`
 `SW.c / SW.h`
 `LED.c / LED.h`
+## Selected Design
+Option A: Layered modular architecture
+Option A is a better design route because it fits both the project requirements and the expectations for a moduler design. 
 ## Module Design & Assignment Table
 
-| Module Name | Responsibility | Assigned Team Member |
-| ----------- | -------------- | -------------------- |
-|             |                |                      |
+| Module Name                | Responsibility                                                               | Assigned Team Member |
+| -------------------------- | ---------------------------------------------------------------------------- | -------------------- |
+| SpaceInvaders.c            | Main loop, game state, V1 enemy data, prompts, game init, move, draw, timing | Justin Natividad     |
+| PLL / Timer1               | 50 MHz clock set up, 10 Hz game tick                                         | Justin Natividad     |
+| SW_features                | PF4/PF0 interrupt input, press-event handling, start/fire swich logic        | Matthew Orendain     |
+| ADC0SS1                    | Potentiometer read and x-position mapping for V2                             | Matthew Orendain     |
+| Nokia5110                  | SSI2 display initialization, text/graphics output, screen buffer rendering   | Gabriel Dao          |
+| Collision / Gameplay Logic |                                                                              | Andrew Maldonando    |
+| DAC / Timer0 / Sound       |                                                                              | Shared               |
+| LED_features               |                                                                              | Shared               |
